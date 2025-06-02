@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
 {
+    // Declare public variables for player health
     public int maxHealth = 3;
     private int currentHealth;
 
