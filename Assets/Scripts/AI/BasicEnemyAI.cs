@@ -11,7 +11,10 @@ public class BasicEnemyAI : MonoBehaviour
     private AIState state = AIState.Idle;
     private float cooldownTimer = 0f;
 
-    // Update is called once per frame
+   // Start is called once before the first execution of Update after the MonoBehaviour is created
+        void Start() { }
+   
+   // Update is called once per frame
     void Update()
     {
         float distance = Vector3.Distance(transform.position, player.position);
@@ -53,29 +56,26 @@ public class BasicEnemyAI : MonoBehaviour
         transform.Translate(dir.normalized * speed * Time.deltaTime, Space.World);
     }
 
-    void OnCollisionEnter(Collision collision)
+    void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if(other.CompareTag("Player"))
         {
-            Vector3 normal = collision.contacts[0].normal;
-            if (normal.y > 0.5f) // player on top
+            // Check if player is above enemy
+            if (other.transform.position.y > transform.position.y + 0.5f)
+            {
+                Debug.Log("Player landed on top. Enemy defeated.");
                 Destroy(gameObject);
+            }
             else
             {
-                // Damage player
-                PlayerHealth health = collision.gameObject.GetComponent<PlayerHealth>();
+                PlayerHealth health = other.GetComponent<PlayerHealth>();
                 if (health != null)
                 {
+                    Debug.Log("Enemy hit the player!");
                     health.TakeDamage(1);
                     state = AIState.CoolDown;
                 }
             }
         }
-     }
-
-        // Start is called once before the first execution of Update after the MonoBehaviour is created
-        void Start()
-    {
-        
     }
 }

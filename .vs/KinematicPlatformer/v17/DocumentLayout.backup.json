@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "B:\\Unity_Projects\\2025\\Kinematic Platformer Game\\KinematicPlatformer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D2C1D23A-881E-0277-37F7-D966C7F5FB5A}|Assembly-CSharp.csproj|b:\\unity_projects\\2025\\kinematic platformer game\\kinematicplatformer\\assets\\scripts\\ai\\basicenemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2C1D23A-881E-0277-37F7-D966C7F5FB5A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai\\basicenemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2C1D23A-881E-0277-37F7-D966C7F5FB5A}|Assembly-CSharp.csproj|b:\\unity_projects\\2025\\kinematic platformer game\\kinematicplatformer\\assets\\scripts\\player\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2C1D23A-881E-0277-37F7-D966C7F5FB5A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2C1D23A-881E-0277-37F7-D966C7F5FB5A}|Assembly-CSharp.csproj|b:\\unity_projects\\2025\\kinematic platformer game\\kinematicplatformer\\assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2C1D23A-881E-0277-37F7-D966C7F5FB5A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D2C1D23A-881E-0277-37F7-D966C7F5FB5A}|Assembly-CSharp.csproj|b:\\unity_projects\\2025\\kinematic platformer game\\kinematicplatformer\\assets\\scripts\\ai\\patrolenemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2C1D23A-881E-0277-37F7-D966C7F5FB5A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai\\patrolenemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,12 +31,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "BasicEnemyAI.cs",
+              "DocumentMoniker": "B:\\Unity_Projects\\2025\\Kinematic Platformer Game\\KinematicPlatformer\\Assets\\Scripts\\AI\\BasicEnemyAI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AI\\BasicEnemyAI.cs",
+              "ToolTip": "B:\\Unity_Projects\\2025\\Kinematic Platformer Game\\KinematicPlatformer\\Assets\\Scripts\\AI\\BasicEnemyAI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AI\\BasicEnemyAI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T19:35:09.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "B:\\Unity_Projects\\2025\\Kinematic Platformer Game\\KinematicPlatformer\\Assets\\Scripts\\Player\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerController.cs",
+              "ToolTip": "B:\\Unity_Projects\\2025\\Kinematic Platformer Game\\KinematicPlatformer\\Assets\\Scripts\\Player\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAywCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T19:33:36.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerHealth.cs",
+              "DocumentMoniker": "B:\\Unity_Projects\\2025\\Kinematic Platformer Game\\KinematicPlatformer\\Assets\\Scripts\\Player\\PlayerHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerHealth.cs",
+              "ToolTip": "B:\\Unity_Projects\\2025\\Kinematic Platformer Game\\KinematicPlatformer\\Assets\\Scripts\\Player\\PlayerHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerHealth.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T19:33:34.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "PatrolEnemyAI.cs",
               "DocumentMoniker": "B:\\Unity_Projects\\2025\\Kinematic Platformer Game\\KinematicPlatformer\\Assets\\Scripts\\AI\\PatrolEnemyAI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AI\\PatrolEnemyAI.cs",
               "ToolTip": "B:\\Unity_Projects\\2025\\Kinematic Platformer Game\\KinematicPlatformer\\Assets\\Scripts\\AI\\PatrolEnemyAI.cs",
               "RelativeToolTip": "Assets\\Scripts\\AI\\PatrolEnemyAI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAADwvzEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-02T01:13:02.744Z",
               "EditorCaption": ""
